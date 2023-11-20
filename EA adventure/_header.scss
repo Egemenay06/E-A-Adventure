@@ -1,0 +1,22 @@
+.header{
+    height: 100vh; /*viewport height yüzdeden farkı %100 kapsayıcı kadar yer kaplar, vhve vw görünen yer kadar kaplar  */
+    width: 100vw; 
+    background-image: url(img/header-bg.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .header-content{
+        color: $text-color;
+        text-align: center;
+        h1{
+            margin-bottom: 30px;
+            margin-top: 50px;
+            font-size: 7vmin;
+        }
+        h2{
+            font-size: 4vmin;
+        }
+    }
+}

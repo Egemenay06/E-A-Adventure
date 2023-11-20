@@ -1,0 +1,42 @@
+.tour{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;    
+    padding: 15px 30px;
+    gap: 10px;
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    
+    &-left{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex: 1 0 0%;
+        gap: 15px;
+      
+    }
+    &-right{
+        width: 510px;
+        
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+        
+        
+        &-gallery{
+              
+            gap: 15px;
+            img{ width: 250px;
+        height: 250px;
+        object-fit: cover;
+        }
+       
+
+    }
+        
+    }
+    
+}
